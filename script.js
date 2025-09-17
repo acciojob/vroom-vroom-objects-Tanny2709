@@ -25,6 +25,9 @@ SportsCar.prototype.getTopSpeed = function () {
   return this.topSpeed;
 };
 
-// Do not change the code below
+// Example usage:
+const car = new SportsCar("Ferrari", "Testarossa", 200);
+
+// Do not change the code below (for Cypress testing)
 window.Car = Car;
 window.SportsCar = SportsCar;
